@@ -10,6 +10,10 @@ backup() {
 	done
 }
 
+archivation() {
+	tar cf $archive $folder
+}
+
 path=$1
 exp=$2
 folder=$3
