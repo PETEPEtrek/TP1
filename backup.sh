@@ -20,3 +20,5 @@ folder=$3
 archive=$4
 cd $path
 mkdir $folder
+backup
+archivation
